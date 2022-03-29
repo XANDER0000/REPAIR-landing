@@ -1,0 +1,10 @@
+.footer {
+  padding: 50px 0 0 140px;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__item {
+  display: flex;
+}

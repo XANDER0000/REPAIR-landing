@@ -1,0 +1,27 @@
+// main: ../style.less
+
+.section__header {
+ position: relative;
+ display: inline-block;
+ font-weight: 800;
+ font-size: 32px;
+ line-height: 40px;
+ color: #222;
+ margin-bottom: 45px;
+
+ span {
+  color: #FFF;
+  mix-blend-mode: multiply;
+  -webkit-text-stroke: 1px @black;
+ }
+
+ &::before {
+  content: '';
+  position: absolute;
+  left: -80px;
+  top: 50%;
+  width: 40px;
+  height: 1px;
+  background: @black;
+ }
+}
